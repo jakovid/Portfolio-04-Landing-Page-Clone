@@ -1,7 +1,9 @@
+import { buildHeader } from "./modules/buildHeader";
+
 (function(){
     var buildIbmClone = {
         init: function() {
-            console.log('Hello World...')
+            buildHeader();
         }
     }
     buildIbmClone.init();

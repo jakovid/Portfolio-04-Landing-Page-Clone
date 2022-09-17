@@ -1,0 +1,13 @@
+#headerContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#menuContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#headerLogo {
+    height: 2rem;
+}
