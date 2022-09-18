@@ -55,9 +55,15 @@
     height: 2rem;
 }
 
-#heroBackgroundImg {
+#heroContainer {
     display: flex;
-    width: 1000px;
-    justify-items: right;
+    width: 100vw;
+    background-color: rgb(206, 203, 203);
+    justify-content: right;
+}
 
+#heroBackgroundImg {
+    width: 1000px;
+    box-shadow: lightgray;
+    
 }
