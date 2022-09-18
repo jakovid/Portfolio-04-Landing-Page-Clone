@@ -54,3 +54,10 @@
 #headerLogo {
     height: 2rem;
 }
+
+#heroBackgroundImg {
+    display: flex;
+    width: 1000px;
+    justify-items: right;
+
+}
