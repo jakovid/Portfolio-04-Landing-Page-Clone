@@ -1,3 +1,5 @@
+import { productsSolutionsMenu } from "./productsSolutionsMenu";
+
 function buildHeader() {
     let htmlBody = document.getElementById('body');
     // create elements
@@ -23,6 +25,7 @@ function buildHeader() {
     let rightContainer = document.createElement('div');
     let loginIcon = document.createElement('img');
     let burgerIcon = document.createElement('img');
+    let dropDownMenuAnchor = document.createElement('div');
     // add classes
     productsSolutionsBox.classList = 'headerMenuItem';
     consultingServicesBox.classList = 'headerMenuItem';
@@ -42,6 +45,7 @@ function buildHeader() {
     menuContainer.id = 'menuContainer';
     searchContainer.id = 'searchContainer';
     rightContainer.id = 'rightContainer';
+    dropDownMenuAnchor.id = 'dropDownMenuAnchor';
     //add src
     logo.src = '../img/ibm.jpg';
     productsSolutionsIcon.src = '/img/expand.png';
@@ -59,6 +63,9 @@ function buildHeader() {
     exploreMore.innerHTML = 'Explore more';
     searchBox.placeholder = 'Search';
 
+    //add event listeners
+    productsSolutions.addEventListener('click', productsSolutionsMenu);
+
     //append items
     productsSolutionsBox.append(productsSolutions,productsSolutionsIcon);
     consultingServicesBox.append(consultingServices,consultingServicesIcon);
@@ -68,7 +75,7 @@ function buildHeader() {
     searchContainer.append(searchBox,searchIcon);
     rightContainer.append(searchContainer,loginIcon,burgerIcon);
     headerContainer.append(logo,menuContainer, rightContainer);
-    htmlBody.appendChild(headerContainer);
+    htmlBody.append(headerContainer, dropDownMenuAnchor);
 };
 
 export { buildHeader };
