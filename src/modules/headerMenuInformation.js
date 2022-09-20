@@ -13,6 +13,20 @@ var productsSolutionsInfo = [
     {itemName: 'Supply chain'},
     {itemName: 'Flexible payment plans'},
     {itemName: 'View all products'}
+];
+
+var consultingServicesInfo = [
+    {itemName: 'IBM Consulting'},
+    {itemName: 'Business process services'},
+    {itemName: 'Design & business strategy'},
+    {itemName: 'Hybrid multicloud services'},
+    {itemName: 'Talent & transformation'},
+    {itemName: 'Application services'},
+    {itemName: 'IBM Garage'},
+    {itemName: 'Security services'},
+    {itemName: 'Technology Support Services'},
+    {itemName: 'Flexible payment plans'},
+    {itemName: 'View all services'}
 ]
 
-export { productsSolutionsInfo };
+export { productsSolutionsInfo, consultingServicesInfo };
