@@ -1,4 +1,4 @@
-import { productsSolutionsMenu } from "./productsSolutionsMenu";
+import { dropDownHeaderMenu } from "./dropDownHeaderMenu";
 
 function buildHeader() {
     let htmlBody = document.getElementById('body');
@@ -64,7 +64,12 @@ function buildHeader() {
     searchBox.placeholder = 'Search';
 
     //add event listeners
-    productsSolutions.addEventListener('click', productsSolutionsMenu);
+    productsSolutions.addEventListener('click', e => {
+        dropDownHeaderMenu('0');
+    });
+    consultingServices.addEventListener('click', e => {
+        dropDownHeaderMenu('1');
+    });
 
     //append items
     productsSolutionsBox.append(productsSolutions,productsSolutionsIcon);

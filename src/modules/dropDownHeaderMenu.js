@@ -1,6 +1,6 @@
-import { productsSolutionsInfo } from "./headerMenuInformation";
+import { headerMenuInformation } from "./headerMenuInformation";
 
-function productsSolutionsMenu() {
+function dropDownHeaderMenu(index) {
     let anchor = document.getElementById('dropDownMenuAnchor');
     //clear anchor
     anchor.innerHTML = '';
@@ -11,12 +11,11 @@ function productsSolutionsMenu() {
     //append items
     anchor.append(dropDownMenu,dropDownMenuItems,dropDownMenuItemInfo);
     //populate dropDownMenuItems
-    for (let i=0; i<productsSolutionsInfo.length; i++) {
+    for (let i=1; i<headerMenuInformation[index].length; i++) {
         let menuItem = document.createElement('div');
-        menuItem.innerHTML = productsSolutionsInfo[i].itemName;
+        menuItem.innerHTML = headerMenuInformation[index][i].itemName;
         dropDownMenuItems.append(menuItem);
     }
-    console.log('click');
 }
 
-export {productsSolutionsMenu};
+export { dropDownHeaderMenu };

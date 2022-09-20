@@ -1,21 +1,21 @@
-var productsSolutionsInfo = [
-    {itemName: 'The Essentials'},
-    {itemName: 'Top products & platfroms'},
-    {itemName: 'Industries'},
-    {itemName: 'Artificial intelligence'},
-    {itemName: 'Automation'},
-    {itemName: 'Blockchain'},
-    {itemName: 'Business operations'},
-    {itemName: 'Cloud computing'},
-    {itemName: 'Data & Analytics'},
-    {itemName: 'IT Infrastructure'},
-    {itemName: 'Security'},
-    {itemName: 'Supply chain'},
-    {itemName: 'Flexible payment plans'},
-    {itemName: 'View all products'}
-];
-
-var consultingServicesInfo = [
+var headerMenuInformation = [[
+        {menuTitle: 'Products & Solutions'},
+        {itemName: 'The Essentials'},
+        {itemName: 'Top products & platfroms'},
+        {itemName: 'Industries'},
+        {itemName: 'Artificial intelligence'},
+        {itemName: 'Automation'},
+        {itemName: 'Blockchain'},
+        {itemName: 'Business operations'},
+        {itemName: 'Cloud computing'},
+        {itemName: 'Data & Analytics'},
+        {itemName: 'IT Infrastructure'},
+        {itemName: 'Security'},
+        {itemName: 'Supply chain'},
+        {itemName: 'Flexible payment plans'},
+        {itemName: 'View all products'}
+    ],
+    [{menuTitle: 'consultingServicesInfo'},
     {itemName: 'IBM Consulting'},
     {itemName: 'Business process services'},
     {itemName: 'Design & business strategy'},
@@ -27,6 +27,6 @@ var consultingServicesInfo = [
     {itemName: 'Technology Support Services'},
     {itemName: 'Flexible payment plans'},
     {itemName: 'View all services'}
-]
+]]
 
-export { productsSolutionsInfo, consultingServicesInfo };
+export { headerMenuInformation };
