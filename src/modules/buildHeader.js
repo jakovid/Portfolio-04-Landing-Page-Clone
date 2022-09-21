@@ -27,6 +27,8 @@ function buildHeader() {
     let burgerIcon = document.createElement('img');
     let dropDownMenuAnchor = document.createElement('div');
     // add classes
+    logo.classList = 'headerMenuItem';
+    letsCreate.classList = 'headerMenuItem';
     productsSolutionsBox.classList = 'headerMenuItem';
     consultingServicesBox.classList = 'headerMenuItem';
     learnSupportBox.classList = 'headerMenuItem';
@@ -35,9 +37,9 @@ function buildHeader() {
     consultingServicesIcon.classList = 'headerIcon';
     learnSupportIcon.classList = 'headerIcon';
     exploreMoreIcon.classList = 'headerIcon';
-    searchIcon.classList = 'headerIcon';
-    loginIcon.classList = 'headerIcon';
-    burgerIcon.classList = 'headerIcon';
+    searchIcon.classList = 'headerIcon headerMenuItem';
+    loginIcon.classList = 'headerIcon headerMenuItem';
+    burgerIcon.classList = 'headerIcon headerMenuItem';
 
     //add ids
     headerContainer.id = 'headerContainer';
@@ -69,6 +71,12 @@ function buildHeader() {
     });
     consultingServices.addEventListener('click', e => {
         dropDownHeaderMenu('1');
+    });
+    learnSupport.addEventListener('click', e => {
+        dropDownHeaderMenu('2');
+    });
+    exploreMore.addEventListener('click', e => {
+        dropDownHeaderMenu('3');
     });
 
     //append items

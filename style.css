@@ -25,6 +25,12 @@
     align-items: center;
 }
 
+.headerMenuItem:hover {
+    cursor: pointer;
+    border-bottom: 2.5px blue solid;
+    color: blue;
+}
+
 .headerIcon {
     height: 2rem;
 }
