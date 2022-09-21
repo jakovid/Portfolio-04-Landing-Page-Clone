@@ -61,7 +61,7 @@
     height: 2rem;
 }
 
-#dropDownMenuAnchor {
+#dropDownMenu {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
