@@ -49,34 +49,77 @@ var headerMenuInformation = [[
         [{menuTitle: 'Consulting & Services'}],
 
         [
-            {itemName: 'IBM Consulting'},
-            {itemName: 'Business process services'},
-            {itemName: 'Design & business strategy'},
-            {itemName: 'Hybrid multicloud services'},
-            {itemName: 'Talent & transformation'},
-            {itemName: 'Application services'},
-            {itemName: 'IBM Garage'},
-            {itemName: 'Security services'},
-            {itemName: 'Technology Support Services'},
-            {itemName: 'Flexible payment plans'},
-            {itemName: 'View all services'}
+            {itemName: 'IBM Consulting',
+            description:''},
+
+            {itemName: 'Business process services',
+            description:''},
+
+            {itemName: 'Design & business strategy',
+            description:''},
+
+            {itemName: 'Hybrid multicloud services',
+            description:''},
+
+            {itemName: 'Talent & transformation',
+            description:''},
+
+            {itemName: 'Application services',
+            description:''},
+
+            {itemName: 'IBM Garage',
+            description:''},
+
+            {itemName: 'Security services',
+            description:''},
+
+            {itemName: 'Technology Support Services',
+            description:''},
+
+            {itemName: 'Flexible payment plans',
+            description:''},
+
+            {itemName: 'View all services',
+            description:''}
         ]
     ], [
         [{menuTitle: 'Learning & Support'}],
 
-        [{itemName: 'Support'},
-        {itemName: 'Documentation'},
-        {itemName: 'Developer education'},
-        {itemName: 'Training'},
-        {itemName: 'Resources'},
-        {itemName: 'What is...'}]
+        [
+            {itemName: 'Support',
+            description:''},
+
+            {itemName: 'Documentation',
+            description:''},
+
+            {itemName: 'Developer education',
+            description:''},
+
+            {itemName: 'Training',
+            description:''},
+
+            {itemName: 'Resources',
+            description:''},
+
+            {itemName: 'What is...',
+            description:''}
+        ]
     ], [
         [{menuTitle: 'Explore more'}],
 
-        [{itemName: 'Partners'},
-        {itemName: 'IBM Research'},
-        {itemName: 'About IBM'},
-        {itemName: 'COVID-19'}]
+        [
+            {itemName: 'Partners',
+            description:''},
+
+            {itemName: 'IBM Research',
+            description:''},
+
+            {itemName: 'About IBM',
+            description:''},
+
+            {itemName: 'COVID-19',
+            description:''}
+        ]
     ]
 ]
 
