@@ -5,19 +5,44 @@ var headerMenuInformation = [[
             {itemName: 'The Essentials', 
             description: 'Explore the IBM hybrid cloud and AI solutions you need to modernize your business'},
 
-            {itemName: 'Top products & platfroms'},
-            {itemName: 'Industries'},
-            {itemName: 'Artificial intelligence'},
-            {itemName: 'Automation'},
-            {itemName: 'Blockchain'},
-            {itemName: 'Business operations'},
-            {itemName: 'Cloud computing'},
-            {itemName: 'Data & Analytics'},
-            {itemName: 'IT Infrastructure'},
-            {itemName: 'Security'},
-            {itemName: 'Supply chain'},
-            {itemName: 'Flexible payment plans'},
-            {itemName: 'View all products'}
+            {itemName: 'Top products & platfroms',
+            description:''},
+
+            {itemName: 'Industries',
+            description:''},
+
+            {itemName: 'Artificial intelligence',
+            description:''},
+
+            {itemName: 'Automation',
+            description:''},
+
+            {itemName: 'Blockchain',
+            description:''},
+
+            {itemName: 'Business operations',
+            description:''},
+
+            {itemName: 'Cloud computing',
+            description:''},
+
+            {itemName: 'Data & Analytics',
+            description:''},
+
+            {itemName: 'IT Infrastructure',
+            description:''},
+
+            {itemName: 'Security',
+            description:''},
+
+            {itemName: 'Supply chain',
+            description:''},
+
+            {itemName: 'Flexible payment plans',
+            description:''},
+
+            {itemName: 'View all products',
+            description:''}
         ],
 
     ],[

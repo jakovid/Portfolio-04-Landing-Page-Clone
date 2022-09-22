@@ -9,7 +9,8 @@ function populateDropDownMenuInfo(mainIndex, subIndex) {
     infoDescription.innerHTML = '';
     infoLinks.innerHTML = '';
     // populate innHTML
-    infoTitle.innerHTML = headerMenuInformation[mainIndex][subIndex][0].menuTitle;
+    infoTitle.innerHTML = headerMenuInformation[mainIndex][1][subIndex].itemName;
+    infoDescription.innerHTML = headerMenuInformation[mainIndex][1][subIndex].description;
 }
 
 export { populateDropDownMenuInfo };

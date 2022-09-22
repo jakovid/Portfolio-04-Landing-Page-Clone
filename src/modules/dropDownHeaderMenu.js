@@ -24,6 +24,9 @@ function dropDownHeaderMenu(mainIndex) {
     for (let i=0; i<headerMenuInformation[mainIndex][1].length; i++) {
         let menuItem = document.createElement('div');
         menuItem.innerHTML = headerMenuInformation[mainIndex][1][i].itemName;
+        menuItem.addEventListener('click', e => {
+            populateDropDownMenuInfo(mainIndex,i)
+        });
         dropDownMenuItems.append(menuItem);
     }
     populateDropDownMenuInfo(mainIndex,0)
