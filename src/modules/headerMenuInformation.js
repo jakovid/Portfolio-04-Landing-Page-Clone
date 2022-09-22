@@ -107,19 +107,46 @@ var headerMenuInformation = [
             ]},
 
             {itemName: 'IT Infrastructure',
-            description:''},
+            description:'',
+            links: [
+                ['Data storage', ''],
+                ['Enterprise servers', ''],
+                ['Flash storage', ''],
+                ['Hybrid cloud infrastructure', ''],
+                ['Mainframes', ''],
+                ['Power servers', ''],
+                ['View all IT infrastructure products', '']
+            ]},
 
             {itemName: 'Security',
-            description:''},
+            description:'',
+            links: [
+                ['Data security', ''],
+                ['Identity & access management', ''],
+                ['IBM QRadar', ''],
+                ['Security orchestration, automation & response', ''],
+                ['Zero Trust', ''],
+                ['View all Security products', '']
+            ]},
 
             {itemName: 'Supply chain',
-            description:''},
+            description:'',
+            links: [
+                ['IBM Sterling', ''],
+                ['Supply chain visibility', ''],
+                ['Supplier collaboration', ''],
+                ['Business process improvement', ''],
+                ['Order management and fulfillment', ''],
+                ['View all Supply Chain products', '']
+            ]},
 
             {itemName: 'Flexible payment plans',
-            description:''},
+            description:'',
+            links: []},
 
             {itemName: 'View all products',
-            description:''}
+            description:'',
+            links: []}
         ],
 
     ],[ //this is the second menu item
