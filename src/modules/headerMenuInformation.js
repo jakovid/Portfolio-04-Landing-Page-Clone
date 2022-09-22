@@ -26,25 +26,85 @@ var headerMenuInformation = [
             ]},
 
             {itemName: 'Industries',
-            description:''},
+            description:'',
+            links: [
+                ['Banking & financial markets', ''],
+                ['Energy & utilities'],
+                ['Government', ''],
+                ['Healthcare', ''],
+                ['Insurance', ''],
+                ['Manufacturing', ''],
+                ['Retail', ''],
+                ['Telecommunications', ''],
+                ['Travel & transportation', '']
+            ]},
 
             {itemName: 'Artificial intelligence',
-            description:''},
+            description:'',
+            links: [
+                ['Customer service', ''],
+                ['Deep learning', ''],
+                ['Remote Monitoring', ''],
+                ['Platforms & APIs', ''],
+                ['View all AI products', '']
+            ]},
 
             {itemName: 'Automation',
-            description:''},
+            description:'',
+            links: [
+                ['AIOps', ''],
+                ['Business process automation', ''],
+                ['Business process mapping', ''],
+                ['Business content management', ''],
+                ['IBM Automation Document Processing', ''],
+                ['Turbonomics', ''],
+                ['View all Automation products', '']
+            ]},
 
             {itemName: 'Blockchain',
-            description:''},
+            description:'',
+            links: [
+                ['Blockchain platform', ''],
+                ['Transparent supply', ''],
+                ['Blockchain for industries', ''],
+                ['Blockchain for supply chain', ''],
+                ['Blockchain for food', ''],
+                ['Blockchain solutions', ''],
+                ['View all Blockchain products', '']
+            ]},
 
             {itemName: 'Business operations',
-            description:''},
+            description:'',
+            links: [
+                ['Enterprise asset management', ''],
+                ['Systems engineering', ''],
+                ['IBM Environmental Intelligence Suite', ''],
+                ['View all Business operations products', '']
+            ]},
 
             {itemName: 'Cloud computing',
-            description:''},
+            description:'',
+            links: [
+                ['Containers', ''],
+                ['Databases', ''],
+                ['DevOps', ''],
+                ['Hybrid Cloud', ''],
+                ['IBM Cloud Paks', ''],
+                ['Red Hat OpenShift', ''],
+                ['VMWare', ''],
+                ['View all Cloud computing products', '']
+            ]},
 
             {itemName: 'Data & Analytics',
-            description:''},
+            description:'',
+            links: [
+                ['Business intelligence', ''],
+                ['Data Fabric', ''],
+                ['Data governance', ''],
+                ['Data science and AI', ''],
+                ['IBM CloudPak for Data', ''],
+                ['View all Data & Analytics products', '']
+            ]},
 
             {itemName: 'IT Infrastructure',
             description:''},
