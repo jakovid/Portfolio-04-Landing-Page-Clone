@@ -1,12 +1,29 @@
-var headerMenuInformation = [[
+var headerMenuInformation = [
+    [ //this is the first menu item
         [{menuTitle: 'Products & Solutions'}],
 
         [
             {itemName: 'The Essentials', 
-            description: 'Explore the IBM hybrid cloud and AI solutions you need to modernize your business'},
+            description: 'Explore the IBM hybrid cloud and AI solutions you need to modernize your business',
+            links: [
+                ['Hybrid Cloud', ''], 
+                ['Artificial intelligence', '']
+            ]},
 
-            {itemName: 'Top products & platfroms',
-            description:''},
+            {itemName: 'Top products & platforms',
+            description:'',
+            links: [
+                ['IBM Automation', ''],
+                ['IBM Cloud', ''],
+                ['IBM Cloud Paks', ''],
+                ['IBM FlashSystem', ''],
+                ['IBM Maximo Application Suite', ''],
+                ['IBM Power', ''],
+                ['IBM QRadar', ''],
+                ['RedHat', ''],
+                ['Watson', ''],
+                ['Zero Trust', '']
+            ]},
 
             {itemName: 'Industries',
             description:''},
@@ -45,7 +62,7 @@ var headerMenuInformation = [[
             description:''}
         ],
 
-    ],[
+    ],[ //this is the second menu item
         [{menuTitle: 'Consulting & Services'}],
 
         [
@@ -82,7 +99,7 @@ var headerMenuInformation = [[
             {itemName: 'View all services',
             description:''}
         ]
-    ], [
+    ], [ //this is the third menu item
         [{menuTitle: 'Learning & Support'}],
 
         [
@@ -104,7 +121,7 @@ var headerMenuInformation = [[
             {itemName: 'What is...',
             description:''}
         ]
-    ], [
+    ], [ //this is the fourth menu item
         [{menuTitle: 'Explore more'}],
 
         [
