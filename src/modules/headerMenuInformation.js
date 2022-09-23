@@ -154,31 +154,79 @@ var headerMenuInformation = [
 
         [
             {itemName: 'IBM Consulting',
-            description:''},
+            description:'',
+            links: [
+                ['Strategy Consulting', ''],
+                ['Experience Consulting', ''],
+                ['Operations Consulting', ''],
+                ['Technology Consulting', '']
+            ]},
 
             {itemName: 'Business process services',
-            description:''},
+            description:'',
+            links: [
+                ['Artificial intelligence services', ''],
+                ['Business process outsourcing', ''],
+                ['Edge consulting', ''],
+                ['Finance transformation', ''],
+                ['Procurement & outsourcing services', ''],
+                ['Risk management consulting', ''],
+                ['Supply chain consulting', '']
+            ]},
 
             {itemName: 'Design & business strategy',
-            description:''},
+            description:'',
+            links: [
+                ['Digital strategy', ''],
+                ['Experience strategy', ''],
+                ['Marketing platforms', ''],
+                ['Salesforce consulting', '']
+            ]},
 
             {itemName: 'Hybrid multicloud services',
-            description:''},
+            description:'',
+            links: [
+
+            ]},
 
             {itemName: 'Talent & transformation',
-            description:''},
+            description:'',
+            links: [
+                ['HR transformation', ''],
+                ['Talent acquisition', ''],
+                ['Talent development', '']
+            ]},
 
             {itemName: 'Application services',
-            description:''},
+            description:'',
+            links: [
+                ['Application modernization', ''],
+                ['Enterprise application strategy', '']
+            ]},
 
             {itemName: 'IBM Garage',
-            description:''},
+            description:'',
+            links: [
+
+            ]},
 
             {itemName: 'Security services',
-            description:''},
+            description:'',
+            links: [
+                ['Application security', ''],
+                ['Data security', ''],
+                ['Identity & access management', ''],
+                ['Managed security', ''],
+                ['Security governance', '']
+            ]},
 
             {itemName: 'Technology Support Services',
-            description:''},
+            description:'',
+            links: [
+                ['Open source', ''],
+                ['Third party & multivendor', ''],
+                ['IBM warranties and maintenance', '']
+            ]},
 
             {itemName: 'Flexible payment plans',
             description:''},
@@ -187,42 +235,114 @@ var headerMenuInformation = [
             description:''}
         ]
     ], [ //this is the third menu item
-        [{menuTitle: 'Learning & Support'}],
+        [{menuTitle: 'Learn & Support'}],
 
         [
             {itemName: 'Support',
-            description:''},
+            description:'',
+            links: [
+                ['IBM Support', ''],
+                ['IBM Cloud Support', ''],
+                ['IBM Developer', ''],
+                ['IBM Community', '']
+            ]},
 
             {itemName: 'Documentation',
-            description:''},
+            description:'',
+            links: [
+                ['All product documentation', ''],
+                ['For products on IBM Cloud', ''],
+                ['For use cases (IBM Redbooks)', '']
+            ]},
 
             {itemName: 'Developer education',
-            description:''},
+            description:'',
+            links: [
+                ['Code patterns', ''],
+                ['Developer community', ''],
+                ['Developer events', ''],
+                ['Open Source @ IBM', ''],
+                ['Technical articles', ''],
+                ['Tutorials', ''],
+                ['Videos', ''],
+                ['View more Developer education', '']
+            ]},
 
             {itemName: 'Training',
-            description:''},
+            description:'',
+            links: [
+                ['Courses', ''],
+                ['Learning journeys', ''],
+                ['Professional certifications', ''],
+                ['Digital learning subscriptions', '']
+            ]},
 
             {itemName: 'Resources',
-            description:''},
+            description:'',
+            links: [
+                ['Blogs', ''],
+                ['Case studies', ''],
+                ['Events', ''],
+                ['IBM Institute for Business Value', ''],
+                ['Licensing & compliance', '']
+            ]},
 
             {itemName: 'What is...',
-            description:''}
+            description:'',
+            links: [
+                ['Artificial intelligence', ''],
+                ['Automation', ''],
+                ['Blockchain', ''],
+                ['Business intelligence', ''],
+                ['Cloud computing', ''],
+                ['Cybersecurity', ''],
+                ['DevOps', ''],
+                ['Hybrid Cloud', ''],
+                ['Kubernetes', ''],
+                ['Quantum computing', ''],
+                ['Supply chain', '']
+            ]}
         ]
     ], [ //this is the fourth menu item
         [{menuTitle: 'Explore more'}],
 
         [
             {itemName: 'Partners',
-            description:''},
+            description:'',
+            links: [
+                ['Partner with us (PartnerWorld)', ''],
+                ['Our strategic partnerships', ''],
+                ['Payment plans for IBM Partners', '']
+            ]},
 
             {itemName: 'IBM Research',
-            description:''},
+            description:'',
+            links: [
+                ['Research areas', ''],
+                ['Researcher directory', ''],
+                ['Patents', ''],
+                ['Work with us', '']
+            ]},
 
             {itemName: 'About IBM',
-            description:''},
+            description:'',
+            links: [
+                ['Annual report', ''],
+                ['Career opportunities', ''],
+                ['Corporate social responsibility', ''],
+                ['Investor relations', ''],
+                ['Licensing & compliance', ''],
+                ['News & announcements', ''],
+                ['Thought leadership', ''],
+                ['Security, privacy & trust', '']
+            ]},
 
             {itemName: 'COVID-19',
-            description:''}
+            description:'',
+            links: [
+                ['Business solutions', ''],
+                ['Action guide', '']
+            ]}
         ]
     ]
 ]
