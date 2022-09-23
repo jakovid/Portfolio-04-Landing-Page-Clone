@@ -6,12 +6,14 @@ function dropDownHeaderMenu(mainIndex) {
     //clear anchor
     anchor.innerHTML = '';
     //create elements
+    let dropDownMenu = document.createElement('div');
     let dropDownMenuItems = document.createElement('div');
     let dropDownMenuItemInfo = document.createElement('div');
     let dropDownMenuItemInfoTitle = document.createElement('div');
     let dropDownMenuItemInfoDescription = document.createElement('div');
     let dropDownMenuItemInfoLinks = document.createElement('div');
     //add ids
+    dropDownMenu.id = 'dropDownMenu';
     dropDownMenuItems.id = 'dropDownMenuItems';
     dropDownMenuItemInfo.id = 'dropDownMenuItemInfo'
     dropDownMenuItemInfoTitle.id = 'dropDownMenuItemInfoTitle';
@@ -19,11 +21,13 @@ function dropDownHeaderMenu(mainIndex) {
     dropDownMenuItemInfoLinks.id = 'dropDownMenuItemInfoLinks';
     //append items
     dropDownMenuItemInfo.append(dropDownMenuItemInfoTitle,dropDownMenuItemInfoDescription,dropDownMenuItemInfoLinks);
-    anchor.append(dropDownMenuItems,dropDownMenuItemInfo);
+    dropDownMenu.append(dropDownMenuItems,dropDownMenuItemInfo)
+    anchor.append(dropDownMenu);
     //populate dropDownMenuItems
     for (let i=0; i<headerMenuInformation[mainIndex][1].length; i++) {
         let menuItem = document.createElement('div');
         menuItem.innerHTML = headerMenuInformation[mainIndex][1][i].itemName;
+        menuItem.className = 'dropDownMenuItem';
         menuItem.addEventListener('click', e => {
             populateDropDownMenuInfo(mainIndex,i)
         });
